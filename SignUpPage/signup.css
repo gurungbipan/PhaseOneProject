@@ -1,0 +1,85 @@
+
+body {
+    
+    font-size: 12px;
+    background: #f9f9f9;
+    background-image: url('b9.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+    h2 {
+    text-align: center;
+    color:black;
+    }
+    form {
+    width: 500px;
+    background:lightblue;
+    padding: 15px 40px 40px;
+    border: 2px solid #ccc;
+    margin: 50px auto 0;
+    border-radius: 5px;
+    }
+    label {
+    display: block;
+    margin-bottom: 5px
+    }
+    label i {
+    color: #999;
+    font-size: 80%;
+    }
+    input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    }
+    .row {
+    padding-bottom: 10px;
+    }
+    .form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+    }
+    .form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+    }
+    .error {
+    color: red;
+    font-size: 90%;
+    }
+    input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #006dcc;
+    border-color: #016BC1;
+    box-shadow: 0 3px 0 #0165b6;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    }
+    input[type="submit"]:hover {
+    background: #0165b6;
+    }
+
+    .blog-footer {
+        padding: 2.5rem 0;
+        color: #999;
+        text-align: center;
+        background-color: #f9f9f9;
+        border-top: .05rem solid #e5e5e5;
+      }
+      .blog-footer p:last-child {
+        margin-bottom: 0;
+      }
+    
+      lead my-3 {
+        background-image: url("images/b3.jpg");
+        background-color: #cccccc;
+       }

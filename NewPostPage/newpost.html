@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Post Form</title>
+   
+</head>
+
+<link rel="stylesheet" href="newpost.css" />
+<script src="newpost.js"></script> 
+
+<h1 style= " text-align: center; color: white; background-color: rgb(33, 33, 105);" >
+    Make A New Post 
+</h1>
+<body>
+    <form name="contactForm" onsubmit= "return validateForm()" method="post">
+        <h3>Share Your Match Thought/Critics</h3>
+        <div class="row">
+            <label>Your Name</label>
+            <input type="text" name="name" size = "50">
+            <div class="error" id="nameErr"></div>
+        </div>
+        <div class="row">
+            <label>Post Heading</label>
+            <input type="text" name="heading" size = "50">
+            <div class="error" id="headingErr"></div>
+        </div>
+    
+        <div>
+            <label for="matchday">Match Date</label>
+            <input type="date" id="matchday" name="matchday">
+        </div>
+        <br>
+
+        <div class="row">
+            <label>Match Venue</label>
+            <div class="form-inline">
+                <label><input type="radio" name="venue" value="home"> Home</label>
+                <label><input type="radio" name="venue" value="away"> Away</label>
+            </div>
+        <div class="error" id="venueErr"></div>
+        </div>
+
+        <div class="row">
+            <label>Post Your Content</label>
+            <textarea type = "text" name = "content" placeholder = "Post your content here of minimum length 100 characters.." minlength="100" style="height:300px; width: 450px;" > 
+            </textarea>
+            <div class="error" id="contentErr"></div>
+        </div>
+        
+      
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+
+
